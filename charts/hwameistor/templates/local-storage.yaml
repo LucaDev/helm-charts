@@ -188,7 +188,7 @@ spec:
           type: DirectoryOrCreate
         name: ssh-dir
       - hostPath:
-          path: /mnt
+          path: /var/mnt
           type: DirectoryOrCreate
         name: host-mnt
   updateStrategy:
