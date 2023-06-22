@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  hwameistor:
+  - apiVersion: v2
+    appVersion: v0.10.3
+    created: "2023-06-22T08:42:14.640705835Z"
+    description: the HwameiStor local storage (modified - LucaDev's chart)
+    digest: 72e187e922d4237d9523a387147f0033b244899382459d84126bd1c207dbdfb4
+    icon: https://hwameistor.io/img/logo.svg
+    name: hwameistor
+    type: application
+    urls:
+    - https://github.com/LucaDev/helm-charts/releases/download/hwameistor-v0.10.3/hwameistor-v0.10.3.tgz
+    version: v0.10.3
+generated: "2023-06-22T08:42:14.640711635Z"
