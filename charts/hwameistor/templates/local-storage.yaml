@@ -176,7 +176,7 @@ spec:
           type: ""
         name: host-dev
       - hostPath:
-          path: /etc/drbd.d
+          path: /var/lib/hwameistor-drbd.d
           type: DirectoryOrCreate
         name: host-etc-drbd
       - hostPath:
