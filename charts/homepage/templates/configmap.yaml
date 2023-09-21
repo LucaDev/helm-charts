@@ -30,11 +30,13 @@ data:
   widgets.yaml: {{- if .Values.config.widgets }} |
 {{- .Values.config.widgets | toYaml | nindent 4 }}
 {{- else }} ""
+{{- end }}
   custom.css: {{- if .Values.config.custom.css }} |
-{{- .Values.config.widgets | toYaml | nindent 4 }}
+{{- .Values.config.custom.css | toYaml | nindent 4 }}
 {{- else }} ""
+{{- end }}
   custom.js: {{- if .Values.config.custom.js }} |
-{{- .Values.config.widgets | toYaml | nindent 4 }}
+{{- .Values.config.custom.js | toYaml | nindent 4 }}
 {{- else }} ""
 {{- end }}
 {{ end }}
