@@ -1,5 +1,29 @@
 apiVersion: v1
 entries:
+  homepage:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: added
+          description: Bumped dependency versions and app versions
+    apiVersion: v2
+    appVersion: v0.6.35
+    created: "2023-09-21T11:30:03.992808397Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.5.1
+    description: Chart for benphelps homepage
+    digest: 88b53e4562e90d3b4555f4f9b9c2ca8646df2847723323c90e77da2642266d6b
+    icon: https://github.com/benphelps/homepage/blob/de584eae8f12a0d257e554e9511ef19bd2a1232c/public/mstile-150x150.png
+    maintainers:
+    - name: jameswynn
+    name: homepage
+    sources:
+    - https://github.com/jameswynn/helm-charts/charts/homepage
+    - https://github.com/benphelps/homepage/
+    urls:
+    - https://github.com/LucaDev/helm-charts/releases/download/homepage-1.2.2/homepage-1.2.2.tgz
+    version: 1.2.2
   hwameistor:
   - apiVersion: v2
     appVersion: v0.10.3
@@ -12,4 +36,4 @@ entries:
     urls:
     - https://github.com/LucaDev/helm-charts/releases/download/hwameistor-v0.10.3/hwameistor-v0.10.3.tgz
     version: v0.10.3
-generated: "2023-06-22T08:42:14.640711635Z"
+generated: "2023-09-21T11:30:04.244148912Z"
